@@ -1,0 +1,35 @@
+<script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=oe3h76w9wl"></script>
+<div id="map" style="width:100%;height:100%;"></div>
+<script>
+    var mapOptions = {
+        center: new naver.maps.LatLng(37.3960010, 126.9644890),
+        zoom: 16
+    };
+    var map = new naver.maps.Map('map', mapOptions);
+
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.3960010, 126.9644890),
+        title: '더파티움 안양',
+        map: map
+    });
+
+    var contentString = [
+        '<div class="iw_inner" style="padding: 0px 20px 0px 20px">',
+        '   <h5>더파티움 안양</h5>',
+        '</div>'
+    ].join('');
+
+    var infowindow = new naver.maps.InfoWindow({
+        content: contentString
+    });
+
+    naver.maps.Event.addListener(marker, "click", function (e) {
+        if (infowindow.getMap()) {
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    });
+
+    infowindow.open(map, marker);
+</script>
