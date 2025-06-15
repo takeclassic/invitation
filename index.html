@@ -1,0 +1,151 @@
+<!DOCTYPE html><html><head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <title>정성윤&전예슬 결혼합니다</title>
+  <meta property="og:title" content="정성윤❤️전예슬 결혼합니다" />
+  <meta property="og:description" content="모바일 청첩장" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://takeclassic.github.io/invitation/#/" />
+  <meta property="og:image" content="https://takeclassic.github.io/invitation/assets/assets/images/bubu.jpg" />
+
+
+  <base href="/invitation/">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="8월 24일 오후 1시 20분">
+
+  <!-- iOS meta tags & icons -->
+  <!-- <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="정성윤❤️전예슬 결혼합니다">
+  <link rel="apple-touch-icon" href="icons/icon_bubu_192.jpg"> -->
+
+  <!-- Favicon -->
+  <!-- <link rel="icon" type="image/png" href="icons/icon_bubu_192.jpg">
+
+  <title>정성윤❤️전예슬 결혼합니다</title>
+  <link rel="manifest" href="manifest.json"> -->
+
+
+
+
+
+
+  
+  
+
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.5/kakao.min.js" integrity="sha384-dok87au0gKqJdxs7msEdBPNnKSRT+/mhTVzq+qOhcL464zXwvcrpjeWvyj1kCdq6" crossorigin="anonymous"></script>
+  <script>
+    // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해야 합니다.
+    Kakao.init('d4622ab402c2c38be80d295175cde77c');
+
+    // SDK 초기화 여부를 판단합니다.
+    console.log(Kakao.isInitialized());
+  </script>
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #ffffff;
+          background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
+</head>
+
+<body>
+  <picture id="splash">
+      <source srcset="splash/img/light-1x.gif 1x, splash/img/light-2x.gif 2x, splash/img/light-3x.gif 3x, splash/img/light-4x.gif 4x" media="(prefers-color-scheme: light)">
+      <source srcset="splash/img/dark-1x.gif 1x, splash/img/dark-2x.gif 2x, splash/img/dark-3x.gif 3x, splash/img/dark-4x.gif 4x" media="(prefers-color-scheme: dark)">
+      <img class="center" aria-hidden="true" src="splash/img/light-1x.gif" alt="">
+  </picture>
+  
+
+
+
+  <script src="flutter_bootstrap.js" async=""></script>
+  <script>
+    function startNavigation() {
+      Kakao.Navi.share({
+        name: '더파티움안양',
+        x: 126.9644890,
+        y: 37.3960010,
+        coordType: 'wgs84',
+      });
+    }
+  </script>
+
+<script type="text/javascript">
+  window.flutterWebRenderer = "html";
+</script>
+
+
+</body></html>
