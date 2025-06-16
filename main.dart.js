@@ -82139,11 +82139,9 @@ $S:107}
 A.abp.prototype={
 gkE(){return A.bW([B.ax,B.ba,B.aT],t.A)}}
 A.LE.prototype={
-M(a){var s,r,q=null
-A.awt(new A.mm("assets/images/bubu.jpg",q,q),a)
-s=["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg","assets/images/7.jpg","assets/images/8.jpg","assets/images/9.jpg","assets/images/10.jpg","assets/images/11.jpg","assets/images/12.jpg","assets/images/13.jpg","assets/images/14.jpg","assets/images/15.jpg"]
-for(r=0;r<15;++r)A.awt(new A.mm(s[r],q,q),a)
-return new A.ug(this.c,"\uc800\ud76c \uacb0\ud63c\ud569\ub2c8\ub2e4",A.vB(q,q,"GowunDodum",!0),new A.abp(),q)}}
+M(a){var s=null
+A.awt(new A.mm("assets/images/bubu.jpg",s,s),a)
+return new A.ug(this.c,"\uc800\ud76c \uacb0\ud63c\ud569\ub2c8\ub2e4",A.vB(s,s,"GowunDodum",!0),new A.abp(),s)}}
 A.abn.prototype={
 $2(a,b){return new A.q_(null)},
 $S:547}
@@ -82205,8 +82203,16 @@ $0(){A.jJ(new A.hU("https://takeclassic.github.io/invitation/"))
 if(!J.jB($.rA().appVersion,"Android "))A.K1(B.de,15,B.GS,"\ubcf5\uc0ac\ub418\uc5c8\uc2b5\ub2c8\ub2e4",B.n,1,B.GT,u.x,"center")},
 $S:0}
 A.Kc.prototype={
-M(a){var s=null,r=t.l,q=A.aT(a,s,r).w,p=A.b4(s,A.aT(a,s,r).w.a.b*0.1,s),o=A.b8("Gallery",s,s,s,s,s,s,s,A.aQ(s,s,A.au(4291659071),s,s,s,s,s,"PlayWrite",s,s,15,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.F,s,s),n=A.b8("\uac24\ub7ec\ub9ac",s,s,s,s,s,s,s,A.aQ(s,s,A.au(4287317267),s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.F,s,s),m=A.b4(s,50,s),l=A.aT(a,s,r).w
-return A.bk(s,A.cy(A.a([p,o,n,m,A.bk(s,new A.Kj(new A.agO(3,5,5),new A.O1(new A.a4U(),15,!0,!0,!0,s),s,B.aN,!1,s,s,new A.ls(s),!0,s,15,B.ag,B.a0G,s,B.a7,B.aw,s),B.o,s,s,s,s,l.a.b*0.8,s,s,s,s,s),A.b4(s,A.aT(a,s,r).w.a.b*0.1,s)],t.p),B.y,B.G,B.C),B.o,s,s,s,s,s,new A.cL(0,0,0,0),s,s,s,q.a.a*0.8)}}
+M(a){var s,r,q,p,o,n,m,l,k=null
+for(s=0;s<15;){++s
+A.awt(new A.mm("assets/images/"+s+".jpg",k,k),a)}r=t.l
+q=A.aT(a,k,r).w
+p=A.b4(k,A.aT(a,k,r).w.a.b*0.1,k)
+o=A.b8("Gallery",k,k,k,k,k,k,k,A.aQ(k,k,A.au(4291659071),k,k,k,k,k,"PlayWrite",k,k,15,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.F,k,k)
+n=A.b8("\uac24\ub7ec\ub9ac",k,k,k,k,k,k,k,A.aQ(k,k,A.au(4287317267),k,k,k,k,k,k,k,k,20,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.F,k,k)
+m=A.b4(k,50,k)
+l=A.aT(a,k,r).w
+return A.bk(k,A.cy(A.a([p,o,n,m,A.bk(k,new A.Kj(new A.agO(3,5,5),new A.O1(new A.a4U(),15,!0,!0,!0,k),k,B.aN,!1,k,k,new A.ls(k),!0,k,15,B.ag,B.a0G,k,B.a7,B.aw,k),B.o,k,k,k,k,l.a.b*0.8,k,k,k,k,k),A.b4(k,A.aT(a,k,r).w.a.b*0.1,k)],t.p),B.y,B.G,B.C),B.o,k,k,k,k,k,new A.cL(0,0,0,0),k,k,k,q.a.a*0.8)}}
 A.a4U.prototype={
 $2(a,b){var s=null
 return A.bk(s,A.jT(s,A.i4("assets/images/thumbnail_"+(b+1)+".jpg",B.ez,s,s),B.ag,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a4T(b,a),s,s,s,s,s,s),B.o,s,s,s,s,100,s,s,s,s,100)},
