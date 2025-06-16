@@ -82207,7 +82207,7 @@ M(a){var s=null,r=t.l,q=A.aT(a,s,r).w,p=A.b4(s,A.aT(a,s,r).w.a.b*0.1,s),o=A.b8("
 return A.bk(s,A.cy(A.a([p,o,n,m,A.bk(s,new A.Kj(new A.agO(3,5,5),new A.O1(new A.a4U(),15,!0,!0,!0,s),s,B.aN,!1,s,s,new A.ls(s),!0,s,15,B.ag,B.a0G,s,B.a7,B.aw,s),B.o,s,s,s,s,l.a.b*0.8,s,s,s,s,s),A.b4(s,A.aT(a,s,r).w.a.b*0.1,s)],t.p),B.y,B.G,B.C),B.o,s,s,s,s,s,new A.cL(0,0,0,0),s,s,s,q.a.a*0.8)}}
 A.a4U.prototype={
 $2(a,b){var s=null
-return A.bk(s,A.jT(s,A.i4("assets/images/"+(b+1)+".jpg",B.ez,s,s),B.ag,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a4T(b,a),s,s,s,s,s,s),B.o,s,s,s,s,100,s,s,s,s,100)},
+return A.bk(s,A.jT(s,A.i4("assets/images/thumbnail_"+(b+1)+".jpg",B.ez,s,s),B.ag,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a4T(b,a),s,s,s,s,s,s),B.o,s,s,s,s,100,s,s,s,s,100)},
 $S:550}
 A.a4T.prototype={
 $0(){$.aun=this.a
