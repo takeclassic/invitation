@@ -82139,10 +82139,11 @@ $S:107}
 A.abp.prototype={
 gkE(){return A.bW([B.ax,B.ba,B.aT],t.A)}}
 A.LE.prototype={
-M(a){var s,r=null
-A.asX(new A.kA("assets/images/bubu.jpg",r,r),a)
-for(s=0;s<15;){++s
-A.asX(new A.kA("assets/images/"+s+".jpg",r,r),a)}return new A.ug(this.c,"\uc800\ud76c \uacb0\ud63c\ud569\ub2c8\ub2e4",A.vB(r,r,"GowunDodum",!0),new A.abp(),r)}}
+M(a){var s,r,q=null
+A.asX(new A.kA("assets/images/bubu.jpg",q,q),a)
+s=["assets/images/1.jpg","assets/images/2.jpg","assets/images/3.jpg","assets/images/4.jpg","assets/images/5.jpg","assets/images/6.jpg","assets/images/7.jpg","assets/images/8.jpg","assets/images/9.jpg","assets/images/10.jpg","assets/images/11.jpg","assets/images/12.jpg","assets/images/13.jpg","assets/images/14.jpg","assets/images/15.jpg"]
+for(r=0;r<15;++r)A.asX(new A.kA(s[r],q,q),a)
+return new A.ug(this.c,"\uc800\ud76c \uacb0\ud63c\ud569\ub2c8\ub2e4",A.vB(q,q,"GowunDodum",!0),new A.abp(),q)}}
 A.abn.prototype={
 $2(a,b){return new A.q_(null)},
 $S:547}
